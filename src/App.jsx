@@ -32,6 +32,7 @@ function App() {
           id="firstName"
           name='firstName'
           label='First Name'
+          autoComplete='off'
           margin='normal'
           value={formik.values.firstName}
           onChange={formik.handleChange}
@@ -44,6 +45,7 @@ function App() {
           id="lastName"
           name='lastName'
           label='Last Name'
+          autoComplete='off'
           margin='normal'
           value={formik.values.lastName}
           onChange={formik.handleChange}
@@ -56,6 +58,7 @@ function App() {
           id="email"
           name='email'
           label='Email'
+          autoComplete='off'
           margin='normal'
           value={formik.values.email}
           onChange={formik.handleChange}
